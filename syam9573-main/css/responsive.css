@@ -1,0 +1,41 @@
+@media (max-width: 600px) {
+
+    body {
+        background: #080808;
+    }
+
+
+    #desktop-background {
+        display: none;
+    }
+
+
+    .profile-page {
+
+        padding: 0;
+
+        align-items: stretch;
+
+    }
+
+
+    .profile-card {
+
+        width: 100%;
+
+        min-height: 100vh;
+
+        border-radius: 0;
+
+    }
+
+
+    .profile-content {
+
+        min-height: 100vh;
+
+        padding-top: 70px;
+
+    }
+
+}
