@@ -1,0 +1,38 @@
+.profile-page {
+
+    min-height: 100vh;
+
+    display: flex;
+
+    justify-content: center;
+
+    align-items: center;
+
+    padding: 30px;
+
+}
+
+
+.profile-card {
+
+    position: relative;
+
+    width: min(
+        var(--card-width),
+        100%
+    );
+
+    min-height: 760px;
+
+    overflow: hidden;
+
+    border-radius:
+        var(--card-radius);
+
+    isolation: isolate;
+
+    box-shadow:
+        0 30px 100px
+        rgba(0,0,0,0.5);
+
+}
